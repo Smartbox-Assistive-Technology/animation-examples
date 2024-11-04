@@ -110,8 +110,16 @@
 
         </RadioButton>
 
+        <RadioButton Grid.Column="0" Grid.Row="3" Style="{StaticResource GlassRadioButtonStyle}">
 
-       
+          <Frame Name="VideoPlayer"
+            Source="Video\VideoPlayer.xaml" Background="White"
+            NavigationUIVisibility="Hidden" />
+
+        </RadioButton>
+
+
+
       </Grid>
 
       <Border.RenderTransform>
